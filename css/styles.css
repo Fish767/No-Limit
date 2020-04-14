@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    background-color: black;
+    color: khaki;
+    user-select: none;
+    font-family: 'press_start_2pregular', Arial, sans-serif;
+}
+
+#money {
+    border: 2px solid black;
+    text-align: center;
+    padding: 15px;
+    font-size: 4em;
+    cursor: default;
+    user-select: none;
+    margin: 0em;
+}
+#gbox {
+    text-align: center;
+    padding: 15px;
+    font-size: 1em;
+    cursor: default;
+    user-select: none;
+    margin: 0em;
+    display: flex;
+    flex-wrap: wrap;
+}
+#generators0 {
+    border: 2px solid red;
+}
+#generators1 {
+    border: 2px solid red;
+}
+#generators2 {
+    border: 2px solid red;
+}
+#generators3 {
+    border: 2px solid red;
+}
+#generators4 {
+    border: 2px solid red;
+}
+#generators5 {
+    border: 2px solid red;
+}
+#generators6 {
+    border: 2px solid red;
+}
+#generators7 {
+    border: 2px solid red;
+}
+#generators8 {
+    border: 2px solid red;
+}
+#generators9 {
+    border: 2px solid red;
+}
+#generators0.buy {
+    border: 2px solid green;
+}
+#generators1.buy {
+    border: 2px solid green;
+}
+#generators2.buy {
+    border: 2px solid green;
+}
+#generators3.buy {
+    border: 2px solid green;
+}
+#generators4.buy {
+    border: 2px solid green;
+}
+#generators5.buy {
+    border: 2px solid green;
+}
+#generators6.buy {
+    border: 2px solid green;
+}
+#generators7.buy {
+    border: 2px solid green;
+}
+#generators8.buy {
+    border: 2px solid green;
+}
+#generators9.buy {
+    border: 2px solid green;
+}
+#autobuyer {
+    text-align: center;
+    padding: 15px;
+    font-size: 4em;
+    cursor: default;
+    user-select: none;
+    margin: 0em;
+    border: 5px solid red;
+    margin-top: 2em;
+}
+#autobuyer.buy {
+    border: 5px solid green;
+}#autobuyer.true {
+    border: 5px solid darkcyan;
+}
+#upgrader {
+    text-align: center;
+    padding: 15px;
+    font-size: 4em;
+    cursor: default;
+    user-select: none;
+    margin: 0em;
+    border: 5px solid red;
+    margin-top: 2em;
+
+}
+#upgrader.buy {
+    border: 5px solid green;
+}
+#download {
+    text-align: center;
+    padding: 15px;
+    font-size: 4em;
+    cursor: default;
+    user-select: none;
+    margin: 0em;
+    border: 5px solid purple;
+    margin-top: 2em;
+
+}
