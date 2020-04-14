@@ -2,7 +2,7 @@ function loop() {
     let r=good2(generators[0]*(5*Math.floor(bought[0]/10)+1)/fps*(Date.now()-dn)*Math.pow(1.5,upgrades),e,ge[0])
     money+=r
     for (let i=1; i<generators.length; i++) {
-        let f=good2(generators[i]*(5*Math.floor(bought[i]/10)+1))/fps*(Date.now()-dn)*Math.pow(1.5,upgrades),ge[i-1],ge[i])
+        let f=good2(generators[i]*(5*Math.floor(bought[i]/10)+1)/fps*(Date.now()-dn)*Math.pow(1.5,upgrades),ge[i-1],ge[i])
         generators[i-1]+=f
     }
     fix()
